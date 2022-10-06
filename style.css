@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-primary: #2c2c2c;
+
+    --bg-secondary: #1a1818;
+
+    --bg-general: #4c9458;
+
+    --text-contrast: #d3d3d3;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+main {
+    background-color: var(--bg-secondary);
+}
+
+.section h2 {
+    color: var(--bg-general);
+}
+
+.header {
+    background-color: var(--bg-primary);
+    padding: 100px 0;
+}
+
+.header h1 {
+    color: var(--bg-general);
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.section p, .header p {
+    color: var(--text-contrast);
+}
+
+.btn-header button {
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--bg-general);
+    color: var(--text-contrast);
+    font-size: 1.2rem;
+}
